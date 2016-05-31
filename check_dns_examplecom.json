@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "check_dns_examplecom": {
+      "command": "/etc/sensu/conf.d/team/plugins/check-dns.rb -h example.com -i 64.202.167.129",
+      "interval": 60,
+      "handlers": [ "enterprise_mws" ],
+      "subscribers": [ "host001" ]
+    }
+  }
+}

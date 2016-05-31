@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "check_process_crond": {
+      "command": "/etc/sensu/conf.d/enterprise/plugins/check-procs.rb -p crond -C 1",
+      "interval": 120,
+      "handlers": [ "enterprise_mws" ],
+      "subscribers": [ "demohosts" ]
+    }
+  }
+}

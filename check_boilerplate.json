@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "check_XXX": {
+      "command": "XXX",
+      "interval": 120,
+      "handlers": [ "enterprise_mws" ],
+      "subscribers": [ "XXX" ]
+    }
+  }
+}
